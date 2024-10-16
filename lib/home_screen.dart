@@ -13,7 +13,7 @@ class _HomeScreenState extends State<HomeScreen> {
     //debugPrint('build called');
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red,
+
         title: const Text(
           'This is an Appbar',
           style: TextStyle(

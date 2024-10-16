@@ -21,7 +21,6 @@ class _SecondScreenState extends State<SecondScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red,
         title: const Text('Second Screen'),
       ),
       body: Column(

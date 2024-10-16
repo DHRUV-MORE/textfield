@@ -1,4 +1,5 @@
-import 'package:demo/curruncy_converter.dart';
+// import 'package:demo/curruncy_converter.dart';
+import 'package:demo/photo.dart';
 // import 'package:demo/home_screen.dart';
 // import 'package:demo/second_screen.dart';
 import 'package:flutter/material.dart';
@@ -14,8 +15,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: CurruncyConverter(),
+    return MaterialApp(
+      theme: ThemeData(
+        appBarTheme: const AppBarTheme(backgroundColor: Colors.blue),
+        scrollbarTheme: ScrollbarThemeData(
+          thumbColor: WidgetStateProperty.all(Colors.blue),
+        ),
+      ),
+
+      home: const DisplayImage(),
     );
   }
 }

@@ -12,7 +12,7 @@ class _CurruncyConverterState extends State<CurruncyConverter> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.red,
+
           title: const Text('Curruncy Converter Screen'),
         ),
         body: const Center(
@@ -108,6 +108,7 @@ class _CurruncyConverterState extends State<CurruncyConverter> {
               ),
             ],
           ),
-        ));
+        )
+    );
   }
 }
